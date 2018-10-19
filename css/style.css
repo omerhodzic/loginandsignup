@@ -1,0 +1,299 @@
+*,
+*::after,
+*::before {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mt-20rem { margin-top: 20rem !important;}
+.mt-8rem { margin-top: 8rem !important;}
+.mt-5rem { margin-top: 5rem !important;}
+.mt-3rem { margin-top: 3rem !important;}
+.mt-2rem { margin-top: 2rem !important;}
+.mt-1rem { margin-top: 1rem !important;}
+
+.mb-5rem { margin-bottom: 5rem !important;}
+
+.container-bg-login {
+    background-image: url(../img/header-bg.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.section-title {
+    font-size: 3rem !important;
+    font-weight: bold;
+}
+
+.section-title > span {
+    font-weight: normal;
+}
+
+#edit-form {
+    margin-bottom: 5rem !important;
+}
+
+.btn-deactivate {
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+#edit-form .form-group,
+.edit-btn-pad {
+    padding-left: 3rem !important; 
+}
+
+#imageBox, #imageUpload { padding-right: 3rem !important;  }
+
+.form-title {
+    padding-left: 5rem !important;
+    margin-top: 8rem !important;
+    margin-bottom: 5rem !important;
+}
+
+.form-title > h2 {
+    font-size: 3rem !important;
+    font-weight: bold;
+}
+
+.form-title > h2 > span {
+    font-weight: normal;
+}
+
+.form-title-signup {
+    padding-left: 5rem !important;
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+}
+
+.form-title-signup > h2 {
+    font-size: 3rem !important;
+    font-weight: bold;
+}
+
+.form-title-signup > h2 > span {
+    font-weight: normal;
+}
+
+
+#login-form, #signup-form {
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+.invalid-feedback {
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
+    font-size: 1.2rem;
+}
+
+.forget-pass-link {
+    font-size: 1.4rem;
+    color: #5b4e9b;
+    font-weight: bold;
+}
+
+.forget-pass-link:hover {
+    color: #5b4e9b;
+    text-decoration: none;
+}
+
+.sign-up-link {
+    font-size: 1.4rem;
+}
+
+.sign-up-link a {
+    color: #5b4e9b;
+    font-weight: bold;
+}
+
+.sign-up-link a:hover {
+    color: #5b4e9b;
+    text-decoration: none;
+}
+
+.alert {
+    padding: .75rem 1.25rem !important;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+label > span {
+    font-weight: normal;
+}
+
+input[type='password'] {
+    padding: 2.6rem !important;
+    font-size: 1.4rem;
+}
+
+input[type='text'] {
+    padding: 2.6rem !important;
+    font-size: 1.4rem;
+}
+
+input[type=checkbox] {
+    font-size: 2rem !important;
+}
+
+.label-check {
+    font-size: 1.4rem;
+    margin-left: 2rem !important;
+    margin-top: -.2rem !important;
+}
+
+input[type='submit'] {
+    padding: 2rem !important;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.btn-login {
+    background-color: #5b4e9b;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: #493f7c;
+}
+
+.btn-info:not(:disabled):not(.disabled).active, 
+.btn-info:not(:disabled):not(.disabled):active {
+    background-color: #493f7c !important;
+    border-color: #493f7c !important;
+}
+
+.btn-info.focus, .btn-info:focus {
+    box-shadow: none !important;
+}
+
+.btn-login-ver {
+    background-color: #5b4e9b;
+    border: none;
+    width: 100%;
+}
+
+.btn-login-ver:hover {
+    background-color: #493f7c;
+}
+
+.success-message > .title > h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 3rem !important;
+}
+
+.success-message > .verify-text > h4 {
+    font-size: 2rem;
+}
+
+.btn-verified {
+    background-color: #5b4e9b;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: .9rem 2rem !important;
+    border-radius: 50px;
+    transition: all .2s;
+}
+
+.btn-verified:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #493f7c;
+}
+
+.login-link-ver {
+    color: #5b4e9b ;
+    font-weight: bold;
+}
+
+.login-link-ver:hover {
+    color: #5b4e9b ;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 1.3rem !important;
+}
+
+.bg-light {
+    background-color: #493f7c !important;
+}
+
+.navbar-brand img {
+    width: 7%;
+}
+
+.navbar-brand a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 1rem !important;
+    font-weight: bold;
+}
+
+.navbar-brand a span {
+    font-weight: normal;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 1.3rem;
+    margin-right: 1rem !important;
+}
+
+.title-bg {
+    background-image: url(../img/page-title-bg.png);
+    background-size: cover;
+    height: 30vh;
+}
+
+.profile-pic {
+    margin-top: -14rem !important;
+}
+
+.profile-pic img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: .6rem solid #fff;
+    box-shadow: .4rem .8rem 2rem rgba(0, 0, 0, .1);
+}
+
+
+.user-name h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.user-info h4 {
+    font-size: 2rem;
+    color: #5b4e9b;
+}
+
+.user-info p {
+    margin-top: 1rem !important;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.user-icon {
+    width: 20%;
+    margin-bottom: 1.5rem !important;
+}
