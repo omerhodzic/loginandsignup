@@ -28,6 +28,9 @@ $public_pages = [
     '/teamly/login.php',
     '/teamly/signup.php',
     '/teamly/forget-password.php',
+    '/teamly/reset-password.php',
+    '/teamly/permision.php',
+    '/teamly/password-successfully-reset.php',
     '/teamly/account-successfully-created.php',
     '/teamly/request-account-activation.php',
 
@@ -41,6 +44,10 @@ $restricted_pages = [
     '/teamly/view-profile.php',
     '/teamly/edit-profile.php',
     '/teamly/change-password.php',
+    '/teamly/password-successfully-changed.php',
+    '/teamly/profile-successfully-updated.php',
+    '/teamly/profile-successfully-deactivated.php',
+    '/teamly/profile-deactivation.php',
 
 ];
 
