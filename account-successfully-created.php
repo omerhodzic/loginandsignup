@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="verify-link mt-3rem">
-                    <a class="btn-verified" href="<?php echo(URLROOT)?>/request-account-activate.php">Please click here to activate.</a>
+                    <a class="btn-verified" href="<?php echo(URLROOT)?>/request-account-activation.php">Please click here to activate.</a>
                 </div>
 
             </div>

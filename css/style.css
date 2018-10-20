@@ -83,6 +83,16 @@ body {
     font-weight: normal;
 }
 
+.form-title .sign-up-link {
+    font-size: 3rem;
+    color: #5b4e9b;
+    font-weight: bold;
+}
+
+.form-title .sign-up-link:hover {
+    color: #5b4e9b;
+    text-decoration: none;
+}
 
 #login-form, #signup-form {
     padding-right: 5rem !important;

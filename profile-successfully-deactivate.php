@@ -13,6 +13,7 @@
             <div class="form-title">
                 <h2><span>Your profile is </span><br>successfully deactivate.</h2>
                 <h4 class="mt-3rem">It's so sad to leave us but hey, if you change your mind,<br> you can <a class="login-link-ver" href="<?php echo(URLROOT)?>/request-account-activation.php"> activate</a> any time again.</h4>
+                <h4 class="mt-3rem">You will be redirect to homepage in 3 second <?php header('Refresh: 3; url=index.php');?></h4>
             </div>
 
         </div>

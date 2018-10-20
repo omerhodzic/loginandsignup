@@ -21,7 +21,7 @@ if(isset($_POST['login'])) {
         $errors['username_err'] = "Username not exists";
 
     } else if (!checkByActivation($username)) {
-        $errors['username_err'] = "Your account is not verified, click <a href='".URLROOT."/request-account-activate.php'>here</a> to verify.";
+        $errors['username_err'] = "Your account is not verified, click <a href='".URLROOT."/request-account-activation.php'>here</a> to verify.";
      }
 
     //password 
